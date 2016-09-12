@@ -43,7 +43,7 @@
       container = document.getElementById('example');
       container.appendChild(element);
 
-      effect = renderer;
+      effect = new THREE.StereoEffect(renderer);
 
       scene = new THREE.Scene();
 
